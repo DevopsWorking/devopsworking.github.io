@@ -3119,3 +3119,567 @@ section {
     }
 
 }
+
+/* =====================================================
+   LIFETIME MEMBERSHIP
+===================================================== */
+
+.lifetime-section {
+
+    padding: 100px 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #eef2ff 0%,
+            #f8fafc 100%
+        );
+
+}
+
+
+.lifetime-header {
+
+    text-align: center;
+
+    max-width: 760px;
+
+    margin: 0 auto 45px;
+
+}
+
+
+.lifetime-header h2 {
+
+    font-size: 46px;
+
+    line-height: 1.1;
+
+    letter-spacing: -1.8px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.lifetime-header p {
+
+    color: var(--text-light);
+
+    font-size: 15px;
+
+}
+
+
+.lifetime-card {
+
+    display: grid;
+
+    grid-template-columns:
+        0.9fr
+        1.1fr;
+
+    background: white;
+
+    border:
+        1px solid #c7d2fe;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 25px 70px
+        rgba(79,70,229,.12);
+
+}
+
+
+.lifetime-main {
+
+    padding: 50px;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            145deg,
+            #11152a,
+            #292461
+        );
+
+}
+
+
+.lifetime-badge {
+
+    display: inline-block;
+
+    padding:
+        6px 10px;
+
+    border-radius: 5px;
+
+    background:
+        rgba(165,180,252,.15);
+
+    color:
+        #c4b5fd;
+
+    font-size:
+        10px;
+
+    font-weight:
+        850;
+
+    letter-spacing:
+        1px;
+
+    margin-bottom:
+        20px;
+
+}
+
+
+.lifetime-main h3 {
+
+    font-size:
+        38px;
+
+    line-height:
+        1.12;
+
+    letter-spacing:
+        -1.3px;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.lifetime-main h3 span {
+
+    display:
+        block;
+
+    color:
+        #a5b4fc;
+
+}
+
+
+.lifetime-description {
+
+    color:
+        #cbd5e1;
+
+    font-size:
+        13px;
+
+    line-height:
+        1.7;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.pricing {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        14px;
+
+}
+
+
+.price-india {
+
+    display:
+        flex;
+
+    align-items:
+        flex-start;
+
+}
+
+
+.currency {
+
+    font-size:
+        25px;
+
+    font-weight:
+        700;
+
+    margin-top:
+        8px;
+
+}
+
+
+.price {
+
+    font-size:
+        58px;
+
+    line-height:
+        1;
+
+    font-weight:
+        850;
+
+    letter-spacing:
+        -2px;
+
+}
+
+
+.price-original {
+
+    color:
+        #94a3b8;
+
+    font-size:
+        17px;
+
+    text-decoration:
+        line-through;
+
+}
+
+
+.discount {
+
+    background:
+        #22c55e;
+
+    color:
+        white;
+
+    padding:
+        5px 8px;
+
+    border-radius:
+        5px;
+
+    font-size:
+        10px;
+
+    font-weight:
+        850;
+
+}
+
+
+.international-price {
+
+    margin-top:
+        12px;
+
+    color:
+        #94a3b8;
+
+    font-size:
+        12px;
+
+}
+
+
+.international-price strong {
+
+    color:
+        white;
+
+    font-size:
+        19px;
+
+    margin-left:
+        4px;
+
+}
+
+
+.international-price span {
+
+    text-decoration:
+        line-through;
+
+    margin-left:
+        5px;
+
+}
+
+
+.lifetime-button {
+
+    margin-top:
+        28px;
+
+    background:
+        white;
+
+    color:
+        #292461;
+
+    width:
+        100%;
+
+    padding:
+        15px 20px;
+
+}
+
+
+.lifetime-button:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(0,0,0,.18);
+
+}
+
+
+.secure-note {
+
+    text-align:
+        center;
+
+    color:
+        #64748b;
+
+    font-size:
+        9px;
+
+    margin-top:
+        10px;
+
+}
+
+
+.lifetime-benefits {
+
+    padding:
+        45px 50px;
+
+}
+
+
+.lifetime-benefits h4 {
+
+    font-size:
+        18px;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.benefit {
+
+    display:
+        flex;
+
+    gap:
+        14px;
+
+    padding:
+        15px 0;
+
+    border-bottom:
+        1px solid var(--border);
+
+}
+
+
+.benefit:last-child {
+
+    border-bottom:
+        none;
+
+}
+
+
+.benefit-icon {
+
+    width:
+        34px;
+
+    height:
+        34px;
+
+    min-width:
+        34px;
+
+    display:
+        grid;
+
+    place-items:
+        center;
+
+    border-radius:
+        8px;
+
+    background:
+        #eef2ff;
+
+    color:
+        var(--primary);
+
+    font-size:
+        10px;
+
+    font-weight:
+        850;
+
+}
+
+
+.benefit strong {
+
+    display:
+        block;
+
+    font-size:
+        13px;
+
+    margin-bottom:
+        2px;
+
+}
+
+
+.benefit p {
+
+    color:
+        var(--text-light);
+
+    font-size:
+        11px;
+
+    line-height:
+        1.5;
+
+}
+
+
+.lifetime-note {
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        8px;
+
+    margin-top:
+        20px;
+
+    color:
+        #64748b;
+
+    font-size:
+        10px;
+
+    text-align:
+        center;
+
+}
+
+
+/* =====================================================
+   LIFETIME RESPONSIVE
+===================================================== */
+
+@media (max-width: 850px) {
+
+    .lifetime-card {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .lifetime-section {
+
+        padding:
+            70px 0;
+
+    }
+
+
+    .lifetime-header h2 {
+
+        font-size:
+            34px;
+
+    }
+
+
+    .lifetime-main {
+
+        padding:
+            32px 25px;
+
+    }
+
+
+    .lifetime-main h3 {
+
+        font-size:
+            30px;
+
+    }
+
+
+    .lifetime-benefits {
+
+        padding:
+            30px 25px;
+
+    }
+
+
+    .price {
+
+        font-size:
+            48px;
+
+    }
+
+
+    .lifetime-note {
+
+        display:
+            block;
+
+        line-height:
+            1.8;
+
+    }
+
+}
