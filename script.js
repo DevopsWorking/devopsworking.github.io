@@ -32,7 +32,7 @@ const courses = [
             "DevOps",
 
         image:
-            "images/course-01.svg",
+            "images/course-01.jpg",
 
         level:
             "All Levels",
@@ -59,7 +59,7 @@ const courses = [
             "DevOps",
 
         image:
-            "images/course-02.svg",
+            "images/course-02.jpg",
 
         level:
             "All Levels",
@@ -86,7 +86,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-03.svg",
+            "images/course-03.jpg",
 
         level:
             "All Levels",
@@ -113,7 +113,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-04.svg",
+            "images/course-04.jpg",
 
         level:
             "All Levels",
@@ -140,7 +140,7 @@ const courses = [
             "AWS",
 
         image:
-            "images/course-05.svg",
+            "images/course-05.jpg",
 
         level:
             "All Levels",
@@ -167,7 +167,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-06.svg",
+            "images/course-06.jpg",
 
         level:
             "All Levels",
@@ -194,7 +194,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-07.svg",
+            "images/course-07.jpg",
 
         level:
             "All Levels",
@@ -221,7 +221,7 @@ const courses = [
             "DevOps",
 
         image:
-            "images/course-08.svg",
+            "images/course-08.jpg",
 
         level:
             "All Levels",
@@ -248,7 +248,7 @@ const courses = [
             "Git",
 
         image:
-            "images/course-09.svg",
+            "images/course-09.jpg",
 
         level:
             "All Levels",
@@ -275,7 +275,7 @@ const courses = [
             "DevOps",
 
         image:
-            "images/course-10.svg",
+            "images/course-10.jpg",
 
         level:
             "All Levels",
@@ -302,7 +302,7 @@ const courses = [
             "AWS",
 
         image:
-            "images/course-11.svg",
+            "images/course-11.jpg",
 
         level:
             "All Levels",
@@ -329,7 +329,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-12.svg",
+            "images/course-12.jpg",
 
         level:
             "All Levels",
@@ -356,7 +356,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-13.svg",
+            "images/course-13.jpg",
 
         level:
             "All Levels",
@@ -383,7 +383,7 @@ const courses = [
             "DevOps",
 
         image:
-            "images/course-14.svg",
+            "images/course-14.jpg",
 
         level:
             "Advanced",
@@ -410,7 +410,7 @@ const courses = [
             "Terraform",
 
         image:
-            "images/course-15.svg",
+            "images/course-15.jpg",
 
         level:
             "All Levels to Advanced",
@@ -437,7 +437,7 @@ const courses = [
             "AI",
 
         image:
-            "images/course-16.svg",
+            "images/course-16.jpg",
 
         level:
             "All Levels",
@@ -464,7 +464,7 @@ const courses = [
             "Git",
 
         image:
-            "images/course-17.svg",
+            "images/course-17.jpg",
 
         level:
             "All Levels",
@@ -491,7 +491,7 @@ const courses = [
             "Docker",
 
         image:
-            "images/course-18.svg",
+            "images/course-18.jpg",
 
         level:
             "All Levels to All Levels",
@@ -518,7 +518,7 @@ const courses = [
             "Docker",
 
         image:
-            "images/course-19.svg",
+            "images/course-19.jpg",
 
         level:
             "All Levels",
@@ -545,7 +545,7 @@ const courses = [
             "Terraform",
 
         image:
-            "images/course-20.svg",
+            "images/course-20.jpg",
 
         level:
             "All Levels",
@@ -572,7 +572,7 @@ const courses = [
             "Kubernetes",
 
         image:
-            "images/course-21.svg",
+            "images/course-21.jpg",
 
         level:
             "All Levels",
@@ -599,7 +599,7 @@ const courses = [
             "Hindi",
 
         image:
-            "images/course-22.svg",
+            "images/course-22.jpg",
 
         level:
             "All Levels",
@@ -626,7 +626,7 @@ const courses = [
             "Hindi",
 
         image:
-            "images/course-23.svg",
+            "images/course-23.jpg",
 
         level:
             "All Levels",
@@ -653,7 +653,7 @@ const courses = [
             "Hindi",
 
         image:
-            "images/course-24.svg",
+            "images/course-24.jpg",
 
         level:
             "All Levels",
