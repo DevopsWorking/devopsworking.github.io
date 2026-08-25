@@ -1,689 +1,1147 @@
-/* ==========================================
+/* =====================================================
+   COURSEDIY WEBSITE CONFIGURATION
+===================================================== */
+
+
+/*
+    =====================================================
+    IMPORTANT
+
+    Replace ONLY the values inside this section.
+
+    You don't need to change the rest of the file.
+    =====================================================
+*/
+
+
+const siteConfig = {
+
+    /*
+        Google Form for your 1+1 offer
+    */
+
+    offerForm:
+        "https://docs.google.com/forms/d/e/YOUR-OFFER-FORM-ID/viewform",
+
+
+    /*
+        WhatsApp group
+    */
+
+    whatsapp:
+        "https://chat.whatsapp.com/YOUR-WHATSAPP-GROUP-LINK",
+
+
+    /*
+        Google Form for 1-on-1 sessions
+    */
+
+    oneOnOne:
+        "https://docs.google.com/forms/d/e/YOUR-1ON1-FORM-ID/viewform",
+
+
+    /*
+        Your Udemy instructor profile
+    */
+
+    udemy:
+        "https://www.udemy.com/user/YOUR-UDEMY-USERNAME/",
+
+
+    /*
+        Your YouTube channel
+    */
+
+    youtube:
+        "https://www.youtube.com/@YOUR-YOUTUBE-CHANNEL"
+
+
+};
+
+
+/* =====================================================
    COURSE DATA
 
-   Add/edit your courses here.
+   ORDERED BY TOTAL REVENUE
 
-   image:
-   Path of your course image
-
-   url:
-   Your Udemy course URL
-
-   category:
-   DevOps / AWS / Kubernetes /
-   Terraform / AI
-
-========================================== */
+   Revenue is NOT displayed on the website.
+===================================================== */
 
 
 const courses = [
 
+
+    /* =================================================
+       1
+    ================================================= */
+
     {
         id: 1,
 
-        title: "Course Title 01",
+        title:
+            "GitLab CI/CD Bootcamp | Zero to Hero | Certification",
 
-        category: "DevOps",
+        category:
+            "DevOps",
 
-        image: "images/course-01.jpg",
+        image:
+            "images/course-01.jpg",
+
+        rating:
+            "4.39",
+
+        students:
+            "7,185",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            1,
+
+        featured:
+            true,
 
         description:
-            "Learn DevOps concepts with practical hands-on examples.",
+            "Master GitLab CI/CD with practical pipelines, automation, DevOps workflows and certification preparation.",
 
-        rating: "4.7",
-
-        students: "10,000+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-01/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-01/"
     },
 
+
+    /* =================================================
+       2
+    ================================================= */
 
     {
         id: 2,
 
-        title: "Course Title 02",
+        title:
+            "Jenkins CI/CD Bootcamp | 25+ Jenkinsfile | Real Projects | 2026",
 
-        category: "AWS",
+        category:
+            "DevOps",
 
-        image: "images/course-02.jpg",
+        image:
+            "images/course-02.jpg",
+
+        rating:
+            "4.72",
+
+        students:
+            "3,913",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            2,
+
+        featured:
+            true,
 
         description:
-            "Learn AWS services and cloud architecture through practical examples.",
+            "Build real-world Jenkins CI/CD pipelines using practical Jenkinsfiles and project-based learning.",
 
-        rating: "4.8",
-
-        students: "8,000+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-02/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-02/"
     },
 
+
+    /* =================================================
+       3
+    ================================================= */
 
     {
         id: 3,
 
-        title: "Course Title 03",
+        title:
+            "AWS Certified AI Practitioner: Hands-On + Practice",
 
-        category: "Kubernetes",
+        category:
+            "AI",
 
-        image: "images/course-03.jpg",
+        image:
+            "images/course-03.jpg",
+
+        rating:
+            "4.41",
+
+        students:
+            "3,841",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            3,
+
+        featured:
+            true,
 
         description:
-            "Master Kubernetes concepts and hands-on administration.",
+            "Prepare for AWS Certified AI Practitioner with hands-on learning, concepts and practice.",
 
-        rating: "4.8",
-
-        students: "7,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-03/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-03/"
     },
 
+
+    /* =================================================
+       4
+    ================================================= */
 
     {
         id: 4,
 
-        title: "Course Title 04",
+        title:
+            "Amazon Kiro HandsOn: Build Apps with AI Agents",
 
-        category: "Terraform",
+        category:
+            "AI",
 
-        image: "images/course-04.jpg",
+        image:
+            "images/course-04.jpg",
+
+        rating:
+            "4.33",
+
+        students:
+            "4,857",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            4,
+
+        featured:
+            true,
 
         description:
-            "Learn Infrastructure as Code with Terraform.",
+            "Learn AI-powered application development and build applications using Amazon Kiro.",
 
-        rating: "4.7",
-
-        students: "6,000+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-04/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-04/"
     },
 
+
+    /* =================================================
+       5
+    ================================================= */
 
     {
         id: 5,
 
-        title: "Course Title 05",
+        title:
+            "AWS Crash Course | Job Interview | World's 1st QnA Style 2026",
 
-        category: "DevOps",
+        category:
+            "AWS",
 
-        image: "images/course-05.jpg",
+        image:
+            "images/course-05.jpg",
+
+        rating:
+            "4.65",
+
+        students:
+            "5,046",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            5,
+
+        featured:
+            true,
 
         description:
-            "Build CI/CD pipelines and automate deployments.",
+            "Prepare for AWS interviews using a practical Q&A-driven learning approach.",
 
-        rating: "4.7",
-
-        students: "5,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-05/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-05/"
     },
 
+
+    /* =================================================
+       6
+    ================================================= */
 
     {
         id: 6,
 
-        title: "Course Title 06",
+        title:
+            "AWS AI & GenAI: Build with Amazon Q Developer",
 
-        category: "AWS",
+        category:
+            "AI",
 
-        image: "images/course-06.jpg",
+        image:
+            "images/course-06.jpg",
+
+        rating:
+            "4.39",
+
+        students:
+            "4,137",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            6,
+
+        featured:
+            true,
 
         description:
-            "Understand AWS architecture and real-world cloud solutions.",
+            "Learn AWS AI and Generative AI development using Amazon Q Developer.",
 
-        rating: "4.8",
-
-        students: "5,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-06/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-06/"
     },
 
+
+    /* =================================================
+       7
+    ================================================= */
 
     {
         id: 7,
 
-        title: "Course Title 07",
+        title:
+            "AI | GenAI | AWS | Amazon Q Business | Create AI Solutions",
 
-        category: "Kubernetes",
+        category:
+            "AI",
 
-        image: "images/course-07.jpg",
+        image:
+            "images/course-07.jpg",
+
+        rating:
+            "4.73",
+
+        students:
+            "1,915",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            7,
+
+        featured:
+            false,
 
         description:
-            "Deploy and manage production Kubernetes workloads.",
+            "Explore Generative AI, AWS and Amazon Q Business with practical examples.",
 
-        rating: "4.8",
-
-        students: "4,000+",
-
-        level: "Advanced",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-07/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-07/"
     },
 
+
+    /* =================================================
+       8
+    ================================================= */
 
     {
         id: 8,
 
-        title: "Course Title 08",
+        title:
+            "Red Hat OpenShift for Beginners: Complete Beginner Guide",
 
-        category: "Terraform",
+        category:
+            "DevOps",
 
-        image: "images/course-08.jpg",
+        image:
+            "images/course-08.jpg",
+
+        rating:
+            "4.53",
+
+        students:
+            "1,769",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            8,
+
+        featured:
+            false,
 
         description:
-            "Automate cloud infrastructure using Terraform.",
+            "Learn OpenShift fundamentals and practical container platform concepts.",
 
-        rating: "4.7",
-
-        students: "4,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-08/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-08/"
     },
 
+
+    /* =================================================
+       9
+    ================================================= */
 
     {
         id: 9,
 
-        title: "Course Title 09",
+        title:
+            "GitHub Foundations Certification | GH-900 | Real Test - 2026",
 
-        category: "DevOps",
+        category:
+            "Git",
 
-        image: "images/course-09.jpg",
+        image:
+            "images/course-09.jpg",
+
+        rating:
+            "4.65",
+
+        students:
+            "1,349",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            9,
+
+        featured:
+            false,
 
         description:
-            "Learn Docker containers and container-based deployments.",
+            "Prepare for GitHub Foundations certification with practical test preparation.",
 
-        rating: "4.7",
-
-        students: "4,000+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-09/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-09/"
     },
 
+
+    /* =================================================
+       10
+    ================================================= */
 
     {
         id: 10,
 
-        title: "Course Title 10",
+        title:
+            "5 DevOps Project - GitLab, Kubernetes, Docker",
 
-        category: "AWS",
+        category:
+            "DevOps",
 
-        image: "images/course-10.jpg",
+        image:
+            "images/course-10.jpg",
+
+        rating:
+            "4.73",
+
+        students:
+            "1,093",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            10,
+
+        featured:
+            false,
 
         description:
-            "Build scalable applications using AWS services.",
+            "Build practical DevOps projects using GitLab, Kubernetes and Docker.",
 
-        rating: "4.8",
-
-        students: "3,500+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-10/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-10/"
     },
 
+
+    /* =================================================
+       11
+    ================================================= */
 
     {
         id: 11,
 
-        title: "Course Title 11",
+        title:
+            "Amazon ECS for DevOps: Docker, CI/CD & Deployments Hands-On",
 
-        category: "AI",
+        category:
+            "AWS",
 
-        image: "images/course-11.jpg",
+        image:
+            "images/course-11.jpg",
+
+        rating:
+            "4.51",
+
+        students:
+            "902",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            11,
+
+        featured:
+            false,
 
         description:
-            "Learn Generative AI concepts and practical applications.",
+            "Learn Amazon ECS, Docker, CI/CD and hands-on AWS deployments.",
 
-        rating: "4.8",
-
-        students: "3,000+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-11/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-11/"
     },
 
+
+    /* =================================================
+       12
+    ================================================= */
 
     {
         id: 12,
 
-        title: "Course Title 12",
+        title:
+            "Claude Certified Architect Foundations (CCA-F)",
 
-        category: "DevOps",
+        category:
+            "AI",
 
-        image: "images/course-12.jpg",
+        image:
+            "images/course-12.jpg",
+
+        rating:
+            "4.40",
+
+        students:
+            "1,803",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            12,
+
+        featured:
+            false,
 
         description:
-            "Master Jenkins and build automated CI/CD pipelines.",
+            "Prepare for Claude Certified Architect Foundations with structured learning.",
 
-        rating: "4.7",
-
-        students: "3,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-12/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-12/"
     },
 
+
+    /* =================================================
+       13
+    ================================================= */
 
     {
         id: 13,
 
-        title: "Course Title 13",
+        title:
+            "Amazon Bedrock with Amazon Q Developer",
 
-        category: "Kubernetes",
+        category:
+            "AI",
 
-        image: "images/course-13.jpg",
+        image:
+            "images/course-13.jpg",
+
+        rating:
+            "4.86",
+
+        students:
+            "1,093",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            13,
+
+        featured:
+            false,
 
         description:
-            "Prepare for Kubernetes administration with hands-on labs.",
+            "Learn Amazon Bedrock and Amazon Q Developer through practical examples.",
 
-        rating: "4.8",
-
-        students: "3,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-13/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-13/"
     },
 
+
+    /* =================================================
+       14
+    ================================================= */
 
     {
         id: 14,
 
-        title: "Course Title 14",
+        title:
+            "5 DevOps Project - Jenkins, K8s, Docker, AWS, SonarQube, Nexus",
 
-        category: "AWS",
+        category:
+            "DevOps",
 
-        image: "images/course-14.jpg",
+        image:
+            "images/course-14.jpg",
+
+        rating:
+            "4.82",
+
+        students:
+            "888",
+
+        level:
+            "Advanced",
+
+        revenueRank:
+            14,
+
+        featured:
+            false,
 
         description:
-            "Explore AWS compute, storage, networking and security.",
+            "Build complete DevOps projects using Jenkins, Kubernetes, Docker, AWS and security tools.",
 
-        rating: "4.7",
-
-        students: "2,500+",
-
-        level: "Beginner",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-14/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-14/"
     },
 
+
+    /* =================================================
+       15
+    ================================================= */
 
     {
         id: 15,
 
-        title: "Course Title 15",
+        title:
+            "Terraform: Beginner to Expert Guide | 3-Level Interview Prep",
 
-        category: "Terraform",
+        category:
+            "Terraform",
 
-        image: "images/course-15.jpg",
+        image:
+            "images/course-15.jpg",
+
+        rating:
+            "4.74",
+
+        students:
+            "564",
+
+        level:
+            "Beginner to Advanced",
+
+        revenueRank:
+            15,
+
+        featured:
+            false,
 
         description:
-            "Master Terraform from beginner to advanced concepts.",
+            "Master Terraform from beginner to advanced level with interview preparation.",
 
-        rating: "4.8",
-
-        students: "2,500+",
-
-        level: "Advanced",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-15/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-15/"
     },
 
+
+    /* =================================================
+       16
+    ================================================= */
 
     {
         id: 16,
 
-        title: "Course Title 16",
+        title:
+            "Amazon Bedrock: AWS GenAI for All | No Code",
 
-        category: "AI",
+        category:
+            "AI",
 
-        image: "images/course-16.jpg",
+        image:
+            "images/course-16.jpg",
+
+        rating:
+            "4.62",
+
+        students:
+            "1,008",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            16,
+
+        featured:
+            false,
 
         description:
-            "Explore AWS Generative AI and Amazon Bedrock.",
+            "Understand AWS Generative AI and Amazon Bedrock without requiring coding.",
 
-        rating: "4.8",
-
-        students: "2,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-16/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-16/"
     },
 
+
+    /* =================================================
+       17
+    ================================================= */
 
     {
         id: 17,
 
-        title: "Course Title 17",
+        title:
+            "Git & GitHub Crash Course: Hands-On + Interview Prep Guide",
 
-        category: "DevOps",
+        category:
+            "Git",
 
-        image: "images/course-17.jpg",
+        image:
+            "images/course-17.jpg",
+
+        rating:
+            "4.76",
+
+        students:
+            "649",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            17,
+
+        featured:
+            false,
 
         description:
-            "Learn GitLab CI/CD and modern DevOps automation.",
+            "Learn Git and GitHub through hands-on examples and interview preparation.",
 
-        rating: "4.7",
-
-        students: "2,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-17/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-17/"
     },
 
+
+    /* =================================================
+       18
+    ================================================= */
 
     {
         id: 18,
 
-        title: "Course Title 18",
+        title:
+            "Docker DevOps Bootcamp: Projects, CI/CD, Interview Prep-2026",
 
-        category: "AWS",
+        category:
+            "Docker",
 
-        image: "images/course-18.jpg",
+        image:
+            "images/course-18.jpg",
+
+        rating:
+            "4.97",
+
+        students:
+            "462",
+
+        level:
+            "Beginner to Intermediate",
+
+        revenueRank:
+            18,
+
+        featured:
+            false,
 
         description:
-            "Learn AWS DevOps services and deployment strategies.",
+            "Learn Docker through projects, CI/CD and interview preparation.",
 
-        rating: "4.7",
-
-        students: "2,000+",
-
-        level: "Advanced",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-18/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-18/"
     },
 
+
+    /* =================================================
+       19
+    ================================================= */
 
     {
         id: 19,
 
-        title: "Course Title 19",
+        title:
+            "Docker & Amazon ECS: Build and Deploy Containers on AWS 2026",
 
-        category: "Kubernetes",
+        category:
+            "Docker",
 
-        image: "images/course-19.jpg",
+        image:
+            "images/course-19.jpg",
+
+        rating:
+            "4.76",
+
+        students:
+            "306",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            19,
+
+        featured:
+            false,
 
         description:
-            "Learn advanced Kubernetes networking and storage.",
+            "Build and deploy containerized applications using Docker and Amazon ECS.",
 
-        rating: "4.8",
-
-        students: "1,500+",
-
-        level: "Advanced",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-19/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-19/"
     },
 
+
+    /* =================================================
+       20
+    ================================================= */
 
     {
         id: 20,
 
-        title: "Course Title 20",
+        title:
+            "Terraform Associate (004): Exam Prep + Hands-On + Tests 2026",
 
-        category: "AI",
+        category:
+            "Terraform",
 
-        image: "images/course-20.jpg",
+        image:
+            "images/course-20.jpg",
+
+        rating:
+            "4.75",
+
+        students:
+            "354",
+
+        level:
+            "Intermediate",
+
+        revenueRank:
+            20,
+
+        featured:
+            false,
 
         description:
-            "Learn modern AI engineering and GenAI workflows.",
+            "Prepare for Terraform Associate 004 with hands-on practice and tests.",
 
-        rating: "4.8",
-
-        students: "1,500+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-20/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-20/"
     },
 
+
+    /* =================================================
+       21
+    ================================================= */
 
     {
         id: 21,
 
-        title: "Course Title 21",
+        title:
+            "Docker & Kubernetes for Beginners | HandsOn Fresher Job Prep",
 
-        category: "DevOps",
+        category:
+            "Kubernetes",
 
-        image: "images/course-21.jpg",
+        image:
+            "images/course-21.jpg",
+
+        rating:
+            "4.92",
+
+        students:
+            "102",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            21,
+
+        featured:
+            false,
 
         description:
-            "Learn DevSecOps and integrate security into CI/CD.",
+            "Start your DevOps journey with Docker and Kubernetes hands-on training.",
 
-        rating: "4.7",
-
-        students: "1,000+",
-
-        level: "Intermediate",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-21/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-21/"
     },
 
+
+    /* =================================================
+       22
+    ================================================= */
 
     {
         id: 22,
 
-        title: "Course Title 22",
+        title:
+            "Amazon Bedrock: हिंदी में Generative AI सीखें",
 
-        category: "Terraform",
+        category:
+            "AI",
 
-        image: "images/course-22.jpg",
+        image:
+            "images/course-22.jpg",
+
+        rating:
+            "5.00",
+
+        students:
+            "24",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            22,
+
+        featured:
+            false,
 
         description:
-            "Build reusable Terraform modules and infrastructure.",
+            "Learn Generative AI and Amazon Bedrock in Hindi.",
 
-        rating: "4.8",
-
-        students: "1,000+",
-
-        level: "Advanced",
-
-        price: "$",
-
-        url: "https://www.udemy.com/course/YOUR-COURSE-22/"
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-22/"
     },
 
+
+    /* =================================================
+       23
+    ================================================= */
 
     {
         id: 23,
 
-        title: "Course Title 23",
+        title:
+            "Kubernetes - हिंदी",
 
-        category: "AI",
+        category:
+            "Kubernetes",
 
-        image: "images/course-23.jpg",
+        image:
+            "images/course-23.jpg",
+
+        rating:
+            "5.00",
+
+        students:
+            "72",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            23,
+
+        featured:
+            false,
 
         description:
-            "Learn AI-powered development and modern GenAI tools.",
+            "Learn Kubernetes fundamentals in Hindi with practical examples.",
 
-        rating: "4.8",
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-23/"
+    },
 
-        students: "1,000+",
 
-        level: "Intermediate",
+    /* =================================================
+       24
+    ================================================= */
 
-        price: "$",
+    {
+        id: 24,
 
-        url: "https://www.udemy.com/course/YOUR-COURSE-23/"
+        title:
+            "Terraform 004 Certification - हिंदी में पूरी तैयारी",
+
+        category:
+            "Terraform",
+
+        image:
+            "images/course-24.jpg",
+
+        rating:
+            "New",
+
+        students:
+            "16",
+
+        level:
+            "Beginner",
+
+        revenueRank:
+            24,
+
+        featured:
+            false,
+
+        description:
+            "Prepare for Terraform Associate 004 certification in Hindi.",
+
+        url:
+            "https://www.udemy.com/course/YOUR-COURSE-24/"
     }
 
 ];
 
 
-/* ==========================================
-   VARIABLES
-========================================== */
+
+/* =====================================================
+   DOM ELEMENTS
+===================================================== */
 
 const courseGrid =
     document.getElementById("courseGrid");
 
+
+const featuredGrid =
+    document.getElementById("featuredGrid");
+
+
 const searchInput =
     document.getElementById("searchInput");
+
 
 const noResults =
     document.getElementById("noResults");
 
+
+const courseCount =
+    document.getElementById("courseCount");
+
+
 const filterButtons =
-    document.querySelectorAll(".filter-btn");
+    document.querySelectorAll(".filter-button");
 
 
-let currentCategory = "All";
+const mobileMenuButton =
+    document.getElementById("mobileMenuButton");
 
 
-/* ==========================================
-   DISPLAY COURSES
-========================================== */
-
-function displayCourses() {
-
-    const searchText =
-        searchInput.value
-        .toLowerCase()
-        .trim();
+const mobileMenu =
+    document.getElementById("mobileMenu");
 
 
-    const filteredCourses =
-        courses.filter(course => {
 
-            const matchesCategory =
-                currentCategory === "All" ||
-                course.category === currentCategory;
+/* =====================================================
+   CURRENT FILTER
+===================================================== */
 
-
-            const matchesSearch =
-                course.title
-                    .toLowerCase()
-                    .includes(searchText) ||
-
-                course.description
-                    .toLowerCase()
-                    .includes(searchText) ||
-
-                course.category
-                    .toLowerCase()
-                    .includes(searchText);
+let currentCategory =
+    "All";
 
 
-            return matchesCategory &&
-                   matchesSearch;
 
-        });
+/* =====================================================
+   COURSE IMAGE FALLBACK
+===================================================== */
 
+function courseImage(image) {
 
-    courseGrid.innerHTML = "";
+    return image;
 
-
-    filteredCourses.forEach(course => {
-
-        const card =
-            document.createElement("article");
-
-        card.className =
-            "course-card";
+}
 
 
-        card.innerHTML = `
 
-            <img
-                src="${course.image}"
-                alt="${course.title}"
-                class="course-image"
-                loading="lazy"
-                onerror="this.src='https://placehold.co/800x450/e2e8f0/475569?text=Course+Image'"
-            >
+/* =====================================================
+   CREATE COURSE CARD
+===================================================== */
+
+function createCourseCard(course) {
+
+    const badge = course.featured
+        ? `<span class="course-badge">BEST SELLER</span>`
+        : "";
+
+
+    const ratingHTML =
+        course.rating === "New"
+
+        ? `<span class="rating">NEW</span>`
+
+        : `<span class="rating">★ ${course.rating}</span>`;
+
+
+    return `
+
+        <article class="course-card">
+
+
+            <div class="course-image-container">
+
+                <img
+                    src="${courseImage(course.image)}"
+                    alt="${course.title}"
+                    class="course-image"
+                    loading="lazy"
+                    onerror="
+                        this.src =
+                        'https://placehold.co/800x450/f1f5f9/475569?text=CourseDIY'
+                    "
+                >
+
+                ${badge}
+
+            </div>
 
 
             <div class="course-content">
 
+
                 <div class="course-category">
+
                     ${course.category}
+
                 </div>
 
 
                 <h3 class="course-title">
+
                     ${course.title}
+
                 </h3>
 
 
                 <p class="course-description">
+
                     ${course.description}
+
                 </p>
 
 
                 <div class="course-meta">
 
-                    <span class="course-rating">
-                        ★ ${course.rating}
-                    </span>
+                    ${ratingHTML}
 
-                    <span>
+                    <span class="students">
+
                         ${course.students} students
-                    </span>
 
-                    <span>
-                        ${course.level}
                     </span>
 
                 </div>
@@ -691,9 +1149,11 @@ function displayCourses() {
 
                 <div class="course-footer">
 
-                    <div class="course-price">
-                        ${course.price}
-                    </div>
+                    <span class="course-level">
+
+                        ${course.level}
+
+                    </span>
 
 
                     <a
@@ -702,7 +1162,7 @@ function displayCourses() {
                         rel="noopener noreferrer"
                         class="udemy-button">
 
-                        View on Udemy
+                        View on Udemy →
 
                     </a>
 
@@ -710,15 +1170,118 @@ function displayCourses() {
 
             </div>
 
-        `;
+        </article>
+
+    `;
+
+}
 
 
-        courseGrid.appendChild(card);
 
-    });
+/* =====================================================
+   DISPLAY FEATURED COURSES
+===================================================== */
+
+function displayFeaturedCourses() {
+
+    if (!featuredGrid) {
+
+        return;
+
+    }
 
 
-    if (filteredCourses.length === 0) {
+    const featured =
+        courses.filter(
+            course => course.featured
+        );
+
+
+    featuredGrid.innerHTML =
+        featured
+            .map(createCourseCard)
+            .join("");
+
+}
+
+
+
+/* =====================================================
+   DISPLAY ALL COURSES
+===================================================== */
+
+function displayCourses() {
+
+    const searchText =
+        searchInput
+            .value
+            .toLowerCase()
+            .trim();
+
+
+    const filteredCourses =
+        courses.filter(course => {
+
+
+            const matchesCategory =
+
+                currentCategory === "All"
+
+                ||
+
+                course.category
+                    .toLowerCase()
+                    .includes(
+                        currentCategory.toLowerCase()
+                    );
+
+
+            const searchableText = (
+
+                course.title +
+
+                " " +
+
+                course.category +
+
+                " " +
+
+                course.description
+
+            ).toLowerCase();
+
+
+            const matchesSearch =
+
+                searchableText
+                    .includes(searchText);
+
+
+            return (
+
+                matchesCategory &&
+
+                matchesSearch
+
+            );
+
+        });
+
+
+    courseGrid.innerHTML =
+        filteredCourses
+            .map(createCourseCard)
+            .join("");
+
+
+    courseCount.textContent =
+
+        `Showing ${filteredCourses.length} of ${courses.length} courses`;
+
+
+    if (
+        filteredCourses.length === 0
+    ) {
 
         noResults.style.display =
             "block";
@@ -733,19 +1296,25 @@ function displayCourses() {
 }
 
 
-/* ==========================================
+
+/* =====================================================
    SEARCH
-========================================== */
+===================================================== */
 
-searchInput.addEventListener(
-    "input",
-    displayCourses
-);
+if (searchInput) {
+
+    searchInput.addEventListener(
+        "input",
+        displayCourses
+    );
+
+}
 
 
-/* ==========================================
-   CATEGORY FILTER
-========================================== */
+
+/* =====================================================
+   CATEGORY FILTERS
+===================================================== */
 
 filterButtons.forEach(button => {
 
@@ -753,13 +1322,16 @@ filterButtons.forEach(button => {
         "click",
         () => {
 
-            filterButtons.forEach(btn => {
 
-                btn.classList.remove(
-                    "active"
-                );
+            filterButtons.forEach(
+                item => {
 
-            });
+                    item.classList.remove(
+                        "active"
+                    );
+
+                }
+            );
 
 
             button.classList.add(
@@ -773,14 +1345,196 @@ filterButtons.forEach(button => {
 
             displayCourses();
 
+
+            document
+                .getElementById("courses")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+
         }
     );
 
 });
 
 
-/* ==========================================
-   INITIAL LOAD
-========================================== */
+
+/* =====================================================
+   LEARNING PATH BUTTONS
+===================================================== */
+
+const pathLinks =
+    document.querySelectorAll(
+        ".path-link"
+    );
+
+
+pathLinks.forEach(link => {
+
+    link.addEventListener(
+        "click",
+        () => {
+
+
+            const path =
+                link.dataset.path;
+
+
+            currentCategory =
+                path;
+
+
+            filterButtons.forEach(
+                button => {
+
+                    button.classList.remove(
+                        "active"
+                    );
+
+
+                    if (
+                        button.dataset.category ===
+                        path
+                    ) {
+
+                        button.classList.add(
+                            "active"
+                        );
+
+                    }
+
+                }
+            );
+
+
+            displayCourses();
+
+        }
+    );
+
+});
+
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+if (mobileMenuButton) {
+
+    mobileMenuButton.addEventListener(
+        "click",
+        () => {
+
+            mobileMenu.classList.toggle(
+                "open"
+            );
+
+        }
+    );
+
+}
+
+
+document
+    .querySelectorAll(
+        ".mobile-menu a"
+    )
+    .forEach(link => {
+
+        link.addEventListener(
+            "click",
+            () => {
+
+                mobileMenu.classList.remove(
+                    "open"
+                );
+
+            }
+        );
+
+    });
+
+
+
+/* =====================================================
+   SET EXTERNAL LINKS
+===================================================== */
+
+function setLink(
+    elementId,
+    url
+) {
+
+    const element =
+        document.getElementById(
+            elementId
+        );
+
+
+    if (element) {
+
+        element.href =
+            url;
+
+    }
+
+}
+
+
+setLink(
+    "offerButton",
+    siteConfig.offerForm
+);
+
+
+setLink(
+    "oneOnOneButton",
+    siteConfig.oneOnOne
+);
+
+
+setLink(
+    "whatsappButton",
+    siteConfig.whatsapp
+);
+
+
+setLink(
+    "udemyButton",
+    siteConfig.udemy
+);
+
+
+setLink(
+    "youtubeButton",
+    siteConfig.youtube
+);
+
+
+setLink(
+    "footerUdemy",
+    siteConfig.udemy
+);
+
+
+setLink(
+    "footerYouTube",
+    siteConfig.youtube
+);
+
+
+setLink(
+    "footerWhatsApp",
+    siteConfig.whatsapp
+);
+
+
+
+/* =====================================================
+   INITIALIZE WEBSITE
+===================================================== */
+
+displayFeaturedCourses();
 
 displayCourses();
