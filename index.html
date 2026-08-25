@@ -2,361 +2,55 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Learn DevOps, AWS, Kubernetes, Terraform, Docker, GitLab, Jenkins and Generative AI through practical hands-on courses.">
+          content="CourseDIY - Practical DevOps, AWS, Kubernetes, Terraform, Docker, GitHub, AI and Generative AI courses.">
 
-    <title>DevOps Academy | Courses</title>
+    <meta name="keywords"
+          content="DevOps, AWS, Kubernetes, Terraform, Docker, Jenkins, GitLab, Generative AI, Amazon Bedrock, CourseDIY">
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="author"
+          content="CourseDIY">
+
+    <title>CourseDIY | DevOps, Cloud & AI Courses</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
+
 
 <body>
 
-<!-- ================= HEADER ================= -->
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
 
 <header class="header">
 
     <div class="container navbar">
 
-        <div class="logo">
-            <a href="index.html">
-                DevOps<span>Academy</span>
-            </a>
-        </div>
+        <a href="#home"
+           class="brand">
 
-        <nav class="nav">
+            <span class="brand-course">
+                Course
+            </span>
 
-            <a href="#home">Home</a>
-            <a href="#courses">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <span class="brand-diy">
+                DIY
+            </span>
 
-        </nav>
-
-        <a
-            href="#courses"
-            class="nav-button">
-            Explore Courses
         </a>
 
-    </div>
 
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<section class="hero" id="home">
-
-    <div class="container hero-content">
-
-        <div class="hero-text">
-
-            <div class="badge">
-                Practical DevOps & Cloud Training
-            </div>
-
-            <h1>
-                Build Real-World
-                <span>DevOps & Cloud Skills</span>
-            </h1>
-
-            <p>
-                Learn AWS, Kubernetes, Docker, Terraform,
-                Jenkins, GitLab CI/CD, DevSecOps and
-                Generative AI through practical,
-                hands-on courses.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a
-                    href="#courses"
-                    class="primary-button">
-                    Explore My Courses
-                </a>
-
-                <a
-                    href="#about"
-                    class="secondary-button">
-                    About Instructor
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-card">
-
-            <div class="hero-card-icon">
-                🚀
-            </div>
-
-            <h3>
-                23+ Courses
-            </h3>
-
-            <p>
-                DevOps • Cloud • Kubernetes •
-                Terraform • AI
-            </p>
-
-            <div class="hero-stats">
-
-                <div>
-                    <strong>23+</strong>
-                    <span>Courses</span>
-                </div>
-
-                <div>
-                    <strong>100+</strong>
-                    <span>Hands-on Labs</span>
-                </div>
-
-                <div>
-                    <strong>∞</strong>
-                    <span>Learning</span>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= COURSES ================= -->
-
-<section class="courses-section" id="courses">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-                <div class="section-label">
-                    MY COURSES
-                </div>
-
-                <h2>
-                    Learn. Practice. Build.
-                </h2>
-
-                <p>
-                    Explore my collection of practical
-                    technology courses.
-                </p>
-            </div>
-
-        </div>
-
-
-        <!-- SEARCH -->
-
-        <div class="course-controls">
-
-            <div class="search-box">
-
-                <input
-                    type="text"
-                    id="searchInput"
-                    placeholder="Search courses..."
-                >
-
-            </div>
-
-
-            <!-- CATEGORY FILTER -->
-
-            <div class="filter-buttons">
-
-                <button
-                    class="filter-btn active"
-                    data-category="All">
-                    All
-                </button>
-
-                <button
-                    class="filter-btn"
-                    data-category="DevOps">
-                    DevOps
-                </button>
-
-                <button
-                    class="filter-btn"
-                    data-category="AWS">
-                    AWS
-                </button>
-
-                <button
-                    class="filter-btn"
-                    data-category="Kubernetes">
-                    Kubernetes
-                </button>
-
-                <button
-                    class="filter-btn"
-                    data-category="Terraform">
-                    Terraform
-                </button>
-
-                <button
-                    class="filter-btn"
-                    data-category="AI">
-                    AI / GenAI
-                </button>
-
-            </div>
-
-        </div>
-
-
-        <!-- COURSE GRID -->
-
-        <div
-            class="course-grid"
-            id="courseGrid">
-
-        </div>
-
-
-        <div
-            class="no-results"
-            id="noResults">
-
-            No courses found.
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="about-section" id="about">
-
-    <div class="container about-grid">
-
-        <div>
-
-            <div class="section-label">
-                ABOUT THE INSTRUCTOR
-            </div>
-
-            <h2>
-                Learn from Practical
-                Industry Experience
-            </h2>
-
-            <p>
-                My courses focus on practical implementation
-                rather than only theory. Each course is designed
-                to help you understand the technology and apply
-                it to real-world DevOps and Cloud scenarios.
-            </p>
-
-            <p>
-                Topics include AWS, Kubernetes, Docker,
-                Terraform, Jenkins, GitLab, DevSecOps,
-                Generative AI and more.
-            </p>
-
-        </div>
-
-
-        <div class="about-card">
-
-            <div class="about-icon">
-                ☁️
-            </div>
-
-            <h3>
-                Cloud & DevOps
-            </h3>
-
-            <p>
-                AWS • Kubernetes • Docker • Terraform
-            </p>
-
-            <div class="about-icon">
-                🤖
-            </div>
-
-            <h3>
-                AI & GenAI
-            </h3>
-
-            <p>
-                Generative AI • Amazon Bedrock • AI Tools
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<section class="cta-section">
-
-    <div class="container cta">
-
-        <h2>
-            Ready to Upgrade Your Skills?
-        </h2>
-
-        <p>
-            Choose a course and start learning today.
-        </p>
-
-        <a
-            href="#courses"
-            class="primary-button">
-            Browse Courses
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="footer" id="contact">
-
-    <div class="container footer-grid">
-
-        <div>
-
-            <div class="logo footer-logo">
-                DevOps<span>Academy</span>
-            </div>
-
-            <p>
-                Practical DevOps, Cloud and
-                Generative AI training.
-            </p>
-
-        </div>
-
-
-        <div>
-
-            <h4>
-                Quick Links
-            </h4>
+        <nav class="nav-menu">
 
             <a href="#home">
                 Home
@@ -366,29 +60,1407 @@
                 Courses
             </a>
 
+            <a href="#learning-paths">
+                Learning Paths
+            </a>
+
+            <a href="#one-on-one">
+                1-on-1
+            </a>
+
             <a href="#about">
                 About
+            </a>
+
+            <a href="#connect">
+                Connect
+            </a>
+
+        </nav>
+
+
+        <a href="#offer"
+           class="nav-offer">
+
+            1+1 Offer
+
+        </a>
+
+
+        <button class="mobile-menu-button"
+                id="mobileMenuButton"
+                aria-label="Open menu">
+
+            ☰
+
+        </button>
+
+    </div>
+
+
+    <div class="mobile-menu"
+         id="mobileMenu">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#courses">
+            Courses
+        </a>
+
+        <a href="#learning-paths">
+            Learning Paths
+        </a>
+
+        <a href="#one-on-one">
+            1-on-1 Sessions
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+        <a href="#connect">
+            Connect
+        </a>
+
+        <a href="#offer">
+            Get 1+1 Offer
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero"
+         id="home">
+
+    <div class="container hero-grid">
+
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+
+                <span class="badge-dot"></span>
+
+                PRACTICAL LEARNING • REAL-WORLD SKILLS
+
+            </div>
+
+
+            <h1>
+
+                Build Skills.
+                <span>Build Your Career.</span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Learn DevOps, Cloud, Kubernetes, Terraform,
+                Docker, GitHub, AWS and Generative AI through
+                practical, hands-on courses designed for
+                real-world projects, certifications and
+                interviews.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#courses"
+                   class="button button-primary">
+
+                    Explore Courses
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+
+                <a href="#offer"
+                   class="button button-secondary">
+
+                    Get 1+1 Offer
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-trust">
+
+                <div class="trust-item">
+
+                    <strong>
+                        24+
+                    </strong>
+
+                    <span>
+                        Courses
+                    </span>
+
+                </div>
+
+
+                <div class="trust-divider"></div>
+
+
+                <div class="trust-item">
+
+                    <strong>
+                        Hands-On
+                    </strong>
+
+                    <span>
+                        Learning
+                    </span>
+
+                </div>
+
+
+                <div class="trust-divider"></div>
+
+
+                <div class="trust-item">
+
+                    <strong>
+                        Career
+                    </strong>
+
+                    <span>
+                        Focused
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="hero-visual">
+
+            <div class="hero-card">
+
+                <div class="hero-card-top">
+
+                    <span class="hero-card-label">
+                        COURSEDIY
+                    </span>
+
+                    <span class="hero-card-status">
+                        ● LEARN
+                    </span>
+
+                </div>
+
+
+                <div class="hero-code">
+
+                    <div class="code-line">
+                        <span class="code-number">
+                            01
+                        </span>
+
+                        <span>
+                            Learn
+                        </span>
+
+                        <strong>
+                            DevOps
+                        </strong>
+                    </div>
+
+
+                    <div class="code-line">
+                        <span class="code-number">
+                            02
+                        </span>
+
+                        <span>
+                            Master
+                        </span>
+
+                        <strong>
+                            Cloud
+                        </strong>
+                    </div>
+
+
+                    <div class="code-line">
+                        <span class="code-number">
+                            03
+                        </span>
+
+                        <span>
+                            Build
+                        </span>
+
+                        <strong>
+                            Projects
+                        </strong>
+                    </div>
+
+
+                    <div class="code-line">
+                        <span class="code-number">
+                            04
+                        </span>
+
+                        <span>
+                            Prepare
+                        </span>
+
+                        <strong>
+                            Interviews
+                        </strong>
+                    </div>
+
+
+                    <div class="code-line">
+                        <span class="code-number">
+                            05
+                        </span>
+
+                        <span>
+                            Explore
+                        </span>
+
+                        <strong>
+                            AI
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card-footer">
+
+                    <span>
+                        CourseDIY
+                    </span>
+
+                    <span>
+                        &lt;/&gt;
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-one">
+
+                <span class="floating-icon">
+                    ☁
+                </span>
+
+                <div>
+
+                    <strong>
+                        Cloud
+                    </strong>
+
+                    <small>
+                        AWS • Azure • GCP
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-two">
+
+                <span class="floating-icon">
+                    ⚙
+                </span>
+
+                <div>
+
+                    <strong>
+                        DevOps
+                    </strong>
+
+                    <small>
+                        CI/CD • Kubernetes
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     OFFER
+===================================================== -->
+
+<section class="offer-section"
+         id="offer">
+
+    <div class="container">
+
+        <div class="offer-box">
+
+            <div class="offer-content">
+
+                <div class="offer-tag">
+                    COURSEDIY SPECIAL OFFER
+                </div>
+
+
+                <h2>
+                    Buy 1 Course.
+                    <span>Get 1 FREE.</span>
+                </h2>
+
+
+                <p>
+
+                    Use my exclusive CourseDIY referral /
+                    coupon offer to get an additional
+                    course when eligible.
+
+                </p>
+
+
+                <div class="offer-points">
+
+                    <div>
+                        ✓ Select your course
+                    </div>
+
+                    <div>
+                        ✓ Submit the offer form
+                    </div>
+
+                    <div>
+                        ✓ Receive the applicable offer details
+                    </div>
+
+                </div>
+
+
+                <a href="#"
+                   id="offerButton"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button offer-button">
+
+                    Get 1+1 Offer
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+
+                <small>
+                    Offer availability and eligibility may vary.
+                </small>
+
+            </div>
+
+
+            <div class="offer-visual">
+
+                <div class="offer-number">
+                    1
+                </div>
+
+                <div class="offer-plus">
+                    +
+                </div>
+
+                <div class="offer-number offer-free">
+                    1
+                </div>
+
+                <div class="offer-free-label">
+                    FREE
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FEATURED COURSES
+===================================================== -->
+
+<section class="featured-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <div class="section-label">
+                    FEATURED COURSES
+                </div>
+
+                <h2>
+                    Start With the Best
+                </h2>
+
+                <p>
+                    Explore some of the most popular
+                    CourseDIY courses.
+                </p>
+
+            </div>
+
+
+            <a href="#courses"
+               class="view-all-link">
+
+                View All Courses →
+
             </a>
 
         </div>
 
 
-        <div>
+        <div class="featured-grid"
+             id="featuredGrid">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LEARNING PATHS
+===================================================== -->
+
+<section class="learning-paths"
+         id="learning-paths">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <div class="section-label">
+                LEARNING PATHS
+            </div>
+
+            <h2>
+                Follow a Clear Learning Journey
+            </h2>
+
+            <p>
+                Choose a path based on your career goal
+                and build skills step by step.
+            </p>
+
+        </div>
+
+
+        <div class="path-grid">
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ⚙
+                </div>
+
+                <h3>
+                    DevOps Engineer
+                </h3>
+
+                <p>
+                    Git → Docker → Kubernetes →
+                    Jenkins → GitLab → DevOps Projects
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="DevOps">
+
+                    Explore DevOps →
+
+                </a>
+
+            </div>
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ☁
+                </div>
+
+                <h3>
+                    AWS & Cloud
+                </h3>
+
+                <p>
+                    AWS fundamentals → Architecture →
+                    ECS → Cloud DevOps → AI
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="AWS">
+
+                    Explore AWS →
+
+                </a>
+
+            </div>
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    Kubernetes
+                </h3>
+
+                <p>
+                    Kubernetes fundamentals →
+                    Administration → Projects → Certification
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="Kubernetes">
+
+                    Explore Kubernetes →
+
+                </a>
+
+            </div>
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ◉
+                </div>
+
+                <h3>
+                    Terraform
+                </h3>
+
+                <p>
+                    Infrastructure as Code →
+                    Modules → Certification → Interview Prep
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="Terraform">
+
+                    Explore Terraform →
+
+                </a>
+
+            </div>
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    AI & Generative AI
+                </h3>
+
+                <p>
+                    GenAI fundamentals → AWS AI →
+                    Bedrock → Q Developer → AI Agents
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="AI">
+
+                    Explore AI →
+
+                </a>
+
+            </div>
+
+
+            <div class="path-card">
+
+                <div class="path-icon">
+                    ◆
+                </div>
+
+                <h3>
+                    Git & GitHub
+                </h3>
+
+                <p>
+                    Git fundamentals → GitHub →
+                    Interview preparation → Certification
+                </p>
+
+                <a href="#courses"
+                   class="path-link"
+                   data-path="Git">
+
+                    Explore Git →
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ALL COURSES
+===================================================== -->
+
+<section class="courses-section"
+         id="courses">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <div class="section-label">
+                    COURSEDIY COURSES
+                </div>
+
+                <h2>
+                    Explore All Courses
+                </h2>
+
+                <p>
+                    Practical courses for DevOps,
+                    Cloud, Infrastructure and AI.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="course-controls">
+
+
+            <div class="search-container">
+
+                <span class="search-icon">
+                    ⌕
+                </span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search courses..."
+                    autocomplete="off">
+
+            </div>
+
+
+            <div class="filter-buttons"
+                 id="filterButtons">
+
+                <button
+                    class="filter-button active"
+                    data-category="All">
+
+                    All
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="DevOps">
+
+                    DevOps
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="AWS">
+
+                    AWS
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="Kubernetes">
+
+                    Kubernetes
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="Terraform">
+
+                    Terraform
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="AI">
+
+                    AI / GenAI
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="Git">
+
+                    Git / GitHub
+
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-category="Docker">
+
+                    Docker
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="course-count"
+             id="courseCount">
+
+        </div>
+
+
+        <div class="course-grid"
+             id="courseGrid">
+
+        </div>
+
+
+        <div class="no-results"
+             id="noResults">
+
+            <div class="no-results-icon">
+                🔎
+            </div>
+
+            <h3>
+                No courses found
+            </h3>
+
+            <p>
+                Try a different search or category.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     1 ON 1
+===================================================== -->
+
+<section class="one-on-one-section"
+         id="one-on-one">
+
+    <div class="container">
+
+        <div class="one-on-one-box">
+
+
+            <div class="one-on-one-content">
+
+                <div class="section-label">
+                    PERSONALIZED GUIDANCE
+                </div>
+
+
+                <h2>
+                    Need Personal Guidance?
+                </h2>
+
+
+                <p>
+
+                    Courses are great for structured learning.
+                    But sometimes you need someone to look at
+                    your specific situation.
+
+                </p>
+
+
+                <p>
+
+                    I also offer personalized 1-on-1 sessions
+                    for learning, projects, interview preparation,
+                    DevOps challenges and career guidance.
+
+                </p>
+
+
+                <div class="session-list">
+
+                    <span>
+                        ✓ DevOps & Cloud
+                    </span>
+
+                    <span>
+                        ✓ AWS & Kubernetes
+                    </span>
+
+                    <span>
+                        ✓ Terraform & CI/CD
+                    </span>
+
+                    <span>
+                        ✓ Interview Preparation
+                    </span>
+
+                    <span>
+                        ✓ Project Guidance
+                    </span>
+
+                    <span>
+                        ✓ AI & Generative AI
+                    </span>
+
+                </div>
+
+
+                <a href="#"
+                   id="oneOnOneButton"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-primary">
+
+                    Request a 1-on-1 Session
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+
+                <p class="small-note">
+
+                    Feel free to reach out and share
+                    what you are looking to achieve.
+
+                </p>
+
+            </div>
+
+
+            <div class="one-on-one-visual">
+
+                <div class="session-card">
+
+                    <div class="session-card-icon">
+                        1:1
+                    </div>
+
+                    <h3>
+                        Personalized
+                        Session
+                    </h3>
+
+                    <p>
+                        Focused on your specific
+                        goals and challenges.
+                    </p>
+
+                    <div class="session-line"></div>
+
+                    <span>
+                        CourseDIY
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONNECT
+===================================================== -->
+
+<section class="connect-section"
+         id="connect">
+
+    <div class="container">
+
+        <div class="connect-grid">
+
+
+            <div class="connect-content">
+
+                <div class="section-label">
+                    CONNECT WITH ME
+                </div>
+
+
+                <h2>
+                    Stay Connected With CourseDIY
+                </h2>
+
+
+                <p>
+
+                    Join the CourseDIY community for course
+                    announcements, offers, learning resources,
+                    DevOps discussions and updates.
+
+                </p>
+
+
+                <div class="connect-buttons">
+
+                    <a href="#"
+                       id="whatsappButton"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="social-button whatsapp">
+
+                        <span class="social-icon">
+                            WA
+                        </span>
+
+                        Join WhatsApp Group
+
+                    </a>
+
+
+                    <a href="#"
+                       id="udemyButton"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="social-button udemy">
+
+                        <span class="social-icon">
+                            U
+                        </span>
+
+                        Visit My Udemy Profile
+
+                    </a>
+
+
+                    <a href="#"
+                       id="youtubeButton"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="social-button youtube">
+
+                        <span class="social-icon">
+                            ▶
+                        </span>
+
+                        YouTube
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="connect-card">
+
+                <div class="connect-card-header">
+
+                    <span>
+                        COURSEDIY COMMUNITY
+                    </span>
+
+                    <span>
+                        ● ONLINE
+                    </span>
+
+                </div>
+
+
+                <div class="community-lines">
+
+                    <div>
+                        <span>
+                            DevOps
+                        </span>
+
+                        <strong>
+                            ✓
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            Cloud
+                        </span>
+
+                        <strong>
+                            ✓
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            Kubernetes
+                        </span>
+
+                        <strong>
+                            ✓
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            AI / GenAI
+                        </span>
+
+                        <strong>
+                            ✓
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about-section"
+         id="about">
+
+    <div class="container about-grid">
+
+
+        <div class="about-visual">
+
+            <div class="about-card">
+
+                <div class="about-brand">
+                    CourseDIY
+                </div>
+
+                <div class="about-tagline">
+                    LEARN • BUILD • GROW
+                </div>
+
+                <div class="about-symbol">
+                    &lt;/&gt;
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <div class="section-label">
+                ABOUT COURSEDIY
+            </div>
+
+
+            <h2>
+                Learn Technology by
+                Building With It
+            </h2>
+
+
+            <p>
+
+                CourseDIY focuses on practical technology
+                education across DevOps, Cloud, Kubernetes,
+                Infrastructure as Code and Generative AI.
+
+            </p>
+
+
+            <p>
+
+                The goal is simple: help learners move beyond
+                theory and develop the practical skills needed
+                for projects, certifications, interviews and
+                real-world environments.
+
+            </p>
+
+
+            <div class="about-highlights">
+
+                <div>
+
+                    <strong>
+                        Practical
+                    </strong>
+
+                    <span>
+                        Hands-on approach
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Projects
+                    </strong>
+
+                    <span>
+                        Real-world scenarios
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Career
+                    </strong>
+
+                    <span>
+                        Interview focused
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="final-cta">
+
+    <div class="container">
+
+        <div class="final-cta-content">
+
+            <div>
+
+                <div class="section-label">
+                    START LEARNING
+                </div>
+
+                <h2>
+                    Ready to Build Your Skills?
+                </h2>
+
+                <p>
+                    Explore the courses and choose
+                    your next learning goal.
+                </p>
+
+            </div>
+
+
+            <div class="final-cta-buttons">
+
+                <a href="#courses"
+                   class="button button-primary">
+
+                    Explore Courses
+
+                </a>
+
+
+                <a href="#offer"
+                   class="button button-light">
+
+                    Get 1+1 Offer
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+
+            <a href="#home"
+               class="brand footer-logo">
+
+                <span class="brand-course">
+                    Course
+                </span>
+
+                <span class="brand-diy">
+                    DIY
+                </span>
+
+            </a>
+
+
+            <p>
+
+                Practical learning for DevOps,
+                Cloud, Infrastructure and AI.
+
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Courses
+            </h4>
+
+            <a href="#courses">
+                All Courses
+            </a>
+
+            <a href="#learning-paths">
+                Learning Paths
+            </a>
+
+            <a href="#offer">
+                1+1 Offer
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Services
+            </h4>
+
+            <a href="#one-on-one">
+                1-on-1 Sessions
+            </a>
+
+            <a href="#connect">
+                Community
+            </a>
+
+            <a href="#about">
+                About CourseDIY
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
 
             <h4>
                 Connect
             </h4>
 
-            <a href="#" target="_blank">
+            <a href="#"
+               id="footerUdemy">
                 Udemy
             </a>
 
-            <a href="#" target="_blank">
+            <a href="#"
+               id="footerYouTube">
                 YouTube
             </a>
 
-            <a href="#" target="_blank">
-                LinkedIn
+            <a href="#"
+               id="footerWhatsApp">
+                WhatsApp
             </a>
 
         </div>
@@ -398,13 +1470,22 @@
 
     <div class="footer-bottom">
 
-        <p>
-            © 2026 DevOps Academy. All rights reserved.
-        </p>
+        <div class="container footer-bottom-inner">
+
+            <span>
+                © 2026 CourseDIY. All rights reserved.
+            </span>
+
+            <span>
+                Learn • Build • Grow
+            </span>
+
+        </div>
 
     </div>
 
 </footer>
+
 
 
 <script src="script.js"></script>
