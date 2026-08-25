@@ -35,13 +35,13 @@ const courses = [
             "images/course-01.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Master GitLab CI/CD with practical pipelines, automation, DevOps workflows and interview-focused learning.",
 
         url:
-            "https://www.udemy.com/course/gitlab-devops-cicd-pipelines-zero-to-hero-job-ready-2024/?couponCode=JULY2026"
+            "https://www.udemy.com/course/gitlab-devops-cicd-pipelines-zero-to-hero-job-ready-2024/?referralCode=3B7B4D58F6013AA5779B"
     },
 
 
@@ -62,13 +62,13 @@ const courses = [
             "images/course-02.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Build real-world Jenkins CI/CD pipelines with practical Jenkinsfiles, projects and automation.",
 
         url:
-            "https://www.udemy.com/course/jenkins-cicd-25-jenkinsfile-3-projects-interview-prep/?couponCode=JULY2026"
+            "hhttps://www.udemy.com/course/jenkins-cicd-25-jenkinsfile-3-projects-interview-prep/?referralCode=0E93C5C681147E2BBE0D"
     },
 
 
@@ -89,13 +89,13 @@ const courses = [
             "images/course-03.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Prepare for AWS Certified AI Practitioner with practical concepts, hands-on learning and practice.",
 
         url:
-            "https://www.udemy.com/course/get-aws-ai-certified-handsonquiz-testszero-to-hero-2025/?couponCode=JULY2026"
+            "https://www.udemy.com/course/get-aws-ai-certified-handsonquiz-testszero-to-hero-2025/?referralCode=2A4266A4613F107D619C"
     },
 
 
@@ -116,13 +116,13 @@ const courses = [
             "images/course-04.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Build applications using AI-powered development and Amazon Kiro with hands-on examples.",
 
         url:
-            "https://www.udemy.com/course/amazon-kiro-handson-build-apps-with-ai-agents-q-developer/?couponCode=JULY2026"
+            "https://www.udemy.com/course/amazon-kiro-handson-build-apps-with-ai-agents-q-developer/?referralCode=4B52F4BD6944AC3503EF"
     },
 
 
@@ -143,13 +143,13 @@ const courses = [
             "images/course-05.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Prepare for AWS interviews using a practical Q&A-driven approach covering important AWS concepts.",
 
         url:
-            "https://www.udemy.com/course/aws-crash-course-101-job-guarantee-worlds-1st-qna-style/?couponCode=JULY2026"
+            "https://www.udemy.com/course/aws-crash-course-101-job-guarantee-worlds-1st-qna-style/?referralCode=158315E9DC5088A66932"
     },
 
 
@@ -170,13 +170,13 @@ const courses = [
             "images/course-06.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Learn AWS AI and Generative AI development using Amazon Q Developer.",
 
         url:
-            "https://www.udemy.com/course/aws-ai-series-amazon-q-developer-your-copilot-2024/?couponCode=JULY2026"
+            "https://www.udemy.com/course/aws-ai-series-amazon-q-developer-your-copilot-2024/?referralCode=C7374231916FC658CD38"
     },
 
 
@@ -197,13 +197,13 @@ const courses = [
             "images/course-07.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Explore Generative AI, AWS and Amazon Q Business with practical examples and use cases.",
 
         url:
-            "https://www.udemy.com/course/aws-cloud-ai-amazon-q-chatgpt/?couponCode=JULY2026"
+            "https://www.udemy.com/course/aws-cloud-ai-amazon-q-chatgpt/?referralCode=74484005FE128303504C"
     },
 
 
@@ -215,7 +215,7 @@ const courses = [
         id: 8,
 
         title:
-            "Red Hat OpenShift for Beginners",
+            "Red Hat OpenShift for All Levelss",
 
         category:
             "DevOps",
@@ -224,13 +224,13 @@ const courses = [
             "images/course-08.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Learn Red Hat OpenShift fundamentals with practical examples and hands-on learning.",
 
         url:
-            "https://www.udemy.com/course/red-hat-openshift-for-beginners-complete-beginner-guide/?couponCode=JULY2026"
+            "https://www.udemy.com/course/red-hat-openshift-for-beginners-complete-beginner-guide/?referralCode=4488FA1A6C5D7BFC3127"
     },
 
 
@@ -251,13 +251,13 @@ const courses = [
             "images/course-09.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Prepare for GitHub Foundations certification with focused preparation and practice.",
 
         url:
-            "https://www.udemy.com/course/github-foundational-certification-prep-practice-tests-2025/?couponCode=JULY2026"
+            "https://www.udemy.com/course/github-foundational-certification-prep-practice-tests-2025/?referralCode=F4600F3FE01CFA401949"
     },
 
 
@@ -278,13 +278,13 @@ const courses = [
             "images/course-10.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Build practical DevOps projects using GitLab, Kubernetes, Docker and multiple technologies.",
 
         url:
-            "https://www.udemy.com/course/5-gitlab-spa-project-java-nodejs-php-python-handson-only/?couponCode=JULY2026"
+            "https://www.udemy.com/course/5-gitlab-spa-project-java-nodejs-php-python-handson-only/?referralCode=408E1F5C5DB9855DFAC2"
     },
 
 
@@ -305,13 +305,13 @@ const courses = [
             "images/course-11.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Learn Amazon ECS, Docker, CI/CD and hands-on AWS container deployments.",
 
         url:
-            "https://www.udemy.com/course/elastic-container-service-ecs-aws-devops-docker-2025/?couponCode=JULY2026"
+            "https://www.udemy.com/course/elastic-container-service-ecs-aws-devops-docker-2025/?referralCode=99B18271290FD72EBB43"
     },
 
 
@@ -332,13 +332,13 @@ const courses = [
             "images/course-12.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Prepare for Claude Certified Architect Foundations with structured certification preparation.",
 
         url:
-            "https://www.udemy.com/course/claude-certified-architect-foundations-cca/?couponCode=JULY2026"
+            "https://www.udemy.com/course/claude-certified-architect-foundations-cca/?referralCode=6D204C78B47819C6C97C"
     },
 
 
@@ -359,13 +359,13 @@ const courses = [
             "images/course-13.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Learn Amazon Bedrock and Amazon Q Developer through practical hands-on examples.",
 
         url:
-            "https://www.udemy.com/course/amazon-bedrock-with-amazon-q-developer-zero-to-hero-python/?couponCode=JULY2026"
+            "https://www.udemy.com/course/amazon-bedrock-with-amazon-q-developer-zero-to-hero-python/?referralCode=6032C5BA71283DEB0723"
     },
 
 
@@ -392,7 +392,7 @@ const courses = [
             "Build complete DevOps projects using Jenkins, Kubernetes, Docker, AWS, SonarQube and Nexus.",
 
         url:
-            "https://www.udemy.com/course/5-devops-project-jenkins-k8s-docker-aws-sonarqubenexus/?couponCode=JULY2026"
+            "https://www.udemy.com/course/5-devops-project-jenkins-k8s-docker-aws-sonarqubenexus/?referralCode=FE6D6FF82F9B96CB946E"
     },
 
 
@@ -404,7 +404,7 @@ const courses = [
         id: 15,
 
         title:
-            "Terraform: Beginner to Expert Guide | 3-Level Interview Prep",
+            "Terraform: All Levels to Expert Guide | 3-Level Interview Prep",
 
         category:
             "Terraform",
@@ -413,13 +413,13 @@ const courses = [
             "images/course-15.svg",
 
         level:
-            "Beginner to Advanced",
+            "All Levels to Advanced",
 
         description:
-            "Master Terraform from beginner to advanced level with practical learning and interview preparation.",
+            "Master Terraform from All Levels to advanced level with practical learning and interview preparation.",
 
         url:
-            "https://www.udemy.com/course/terraform-beginner-to-expert-guide-3-level-interview-prep/?couponCode=JULY2026"
+            "https://www.udemy.com/course/terraform-beginner-to-expert-guide-3-level-interview-prep/?referralCode=58FF993FC51BC3E7D01D"
     },
 
 
@@ -440,13 +440,13 @@ const courses = [
             "images/course-16.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
-            "Learn Amazon Bedrock and Generative AI concepts with a beginner-friendly approach.",
+            "Learn Amazon Bedrock and Generative AI concepts with a All Levels-friendly approach.",
 
         url:
-            "https://www.udemy.com/course/amazon-bedrock-unleash-genai-without-code-100-drag-drop/?couponCode=JULY2026"
+            "https://www.udemy.com/course/amazon-bedrock-unleash-genai-without-code-100-drag-drop/?referralCode=D55D7889ADB18CEBA446"
     },
 
 
@@ -467,13 +467,13 @@ const courses = [
             "images/course-17.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Learn Git and GitHub through hands-on examples and focused interview preparation.",
 
         url:
-            "https://www.udemy.com/course/git-github-bootcamp-with-codespace-tothepoint-job-prep-2025/?couponCode=JULY2026"
+            "https://www.udemy.com/course/git-github-bootcamp-with-codespace-tothepoint-job-prep-2025/?referralCode=FD7BD74A54EE99639311"
     },
 
 
@@ -494,13 +494,13 @@ const courses = [
             "images/course-18.svg",
 
         level:
-            "Beginner to Intermediate",
+            "All Levels to All Levels",
 
         description:
             "Learn Docker through practical projects, CI/CD workflows and interview preparation.",
 
         url:
-            "https://www.udemy.com/course/docker-bootcamp-job-interview-worlds-1st-qna-style-2025/?couponCode=JULY2026"
+            "https://www.udemy.com/course/docker-bootcamp-job-interview-worlds-1st-qna-style-2025/?referralCode=8F8D402A643F8E755348"
     },
 
 
@@ -521,13 +521,13 @@ const courses = [
             "images/course-19.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Build and deploy containerized applications using Docker and Amazon ECS on AWS.",
 
         url:
-            "https://www.udemy.com/course/docker-amazon-ecs-zero-to-hero-in-cloud-container-bundle/?couponCode=JULY2026"
+            "https://www.udemy.com/course/docker-amazon-ecs-zero-to-hero-in-cloud-container-bundle/?referralCode=E0FE746D95AC7C5846A4"
     },
 
 
@@ -548,13 +548,13 @@ const courses = [
             "images/course-20.svg",
 
         level:
-            "Intermediate",
+            "All Levels",
 
         description:
             "Prepare for Terraform Associate 004 with hands-on learning, tests and exam preparation.",
 
         url:
-            "https://www.udemy.com/course/hashicorp-certified-terraform-associate-004-with-tests-new/?couponCode=JULY2026"
+            "https://www.udemy.com/course/hashicorp-certified-terraform-associate-004-with-tests-new/?referralCode=B1D9356BAA91D18B2D50"
     },
 
 
@@ -566,7 +566,7 @@ const courses = [
         id: 21,
 
         title:
-            "Docker & Kubernetes for Beginners - Level 1",
+            "Docker & Kubernetes for Beginners | HandsOn Fresher Job Prep",
 
         category:
             "Kubernetes",
@@ -575,7 +575,7 @@ const courses = [
             "images/course-21.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Start your DevOps journey with Docker and Kubernetes through hands-on learning.",
@@ -602,7 +602,7 @@ const courses = [
             "images/course-22.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Learn Amazon Bedrock and Generative AI concepts in Hindi.",
@@ -629,13 +629,13 @@ const courses = [
             "images/course-23.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Learn Kubernetes fundamentals in Hindi with practical examples.",
 
         url:
-            "https://www.udemy.com/course/kubernetes-hindi/?couponCode=JULY2026"
+            "https://www.udemy.com/course/kubernetes-hindi/?referralCode=E66E166FBEBC271BDE17"
     },
 
 
@@ -656,7 +656,7 @@ const courses = [
             "images/course-24.svg",
 
         level:
-            "Beginner",
+            "All Levels",
 
         description:
             "Prepare for Terraform Associate 004 certification in Hindi.",
