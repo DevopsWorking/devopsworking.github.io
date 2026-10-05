@@ -12,26 +12,26 @@ const siteConfig = {
 
     // Google Form for the 1+1 offer
     offerForm:
-        "https://docs.google.com/forms/d/e/YOUR-OFFER-FORM-ID/viewform",
+        "https://chat.whatsapp.com/EHh03HdVoz90OqHCaB9SnQ",
 
     // CourseDIY WhatsApp community/group
     whatsapp:
-        "https://chat.whatsapp.com/YOUR-WHATSAPP-GROUP-LINK",
+        "https://chat.whatsapp.com/CLWOeMT34D4F89dCIHahzn",
 
     // Google Form for 1-on-1 sessions
     oneOnOne:
-        "https://docs.google.com/forms/d/e/YOUR-1ON1-FORM-ID/viewform",
+        "https://chat.whatsapp.com/EHh03HdVoz90OqHCaB9SnQ",
 
     // Your Udemy instructor profile
     udemy:
-        "https://www.udemy.com/user/YOUR-UDEMY-USERNAME/",
+        "https://www.udemy.com/user/karan-gupta-28/",
 
     // Your YouTube channel
     youtube:
-        "https://www.youtube.com/@YOUR-YOUTUBE-CHANNEL",
+        "https://www.youtube.com/@DevopsWorking",
 
     // Payment page for CourseDIY Lifetime Access
     lifetime:
-        "https://YOUR-PAYMENT-LINK-HERE"
+        "https://wa.me/qr/GZELEAIHSPNLD1"
 
 };
